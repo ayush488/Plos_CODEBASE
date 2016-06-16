@@ -1,8 +1,8 @@
 # Plos_CODEBASE
-Contains code for extraction disease-gene-mutation triplets from PubMed literature.
-README.txt
-Author: Ayush Singhal
-Folder_name: "PloS_CODEBASE"
+#Contains code for extraction disease-gene-mutation triplets from PubMed literature.
+
+#Author: Ayush Singhal
+#Folder_name: "PloS_CODEBASE"
 
 	A. Pre-compiled dictionaries:
 	
@@ -52,7 +52,9 @@ Folder_name: "PloS_CODEBASE"
 			find_genes_using_GeneDb.py: Prepares Gene database for finding genes.
 			new_code_gene_prediction_includes_protein_isoform_check_nearest_gene_mention.py: Code for assigning genes to the mutation (includes sequence validation, protein isoform check)
 			prepare_output_file.py: tp get the final output file.
+
 	D. Commands to run the code:
+	
 		1. Install the extration libraries as mentioned in C.a
 		2. Do not change the location of the codes. Keep all of them in one place.
 		3. Open the final_triplet_extraction_code.py
